@@ -1,4 +1,9 @@
-const repeatString = function() {
+const repeatString = function(string, num) {
+    try {
+        return string.repeat(num);
+    } catch(e) {
+        return 'ERROR'
+    }
 
 };
 
